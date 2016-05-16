@@ -18,14 +18,22 @@ class ViewController: UIViewController {
         let camera = GMSCameraPosition.cameraWithLatitude(-33.86,
                                                           longitude: 151.20, zoom: 6)
         let mapView = GMSMapView.mapWithFrame(CGRectZero, camera: camera)
+        mapView.accessibilityElementsHidden = false
         mapView.myLocationEnabled = true
         self.view = mapView
         
+        if let mylocation = mapView.myLocation {
+            print("User's location: \(mylocation)")
+        } else {
+            print("User's location is unknown")
+        }
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2DMake(-33.86, 151.20)
         marker.title = "Sydney"
         marker.snippet = "Australia"
         marker.map = mapView
+        
+        ///////GET MAPS SDK DEMOS///////
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,4 +43,6 @@ class ViewController: UIViewController {
 
 
 }
+
+
 

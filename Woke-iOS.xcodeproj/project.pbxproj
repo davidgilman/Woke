@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA58F8A1CE8FB9000968DAD /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DA58F891CE8FB9000968DAD /* launch.png */; };
 		0DB32E551CE869370074C6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB32E541CE869370074C6CF /* AppDelegate.swift */; };
 		0DB32E571CE869370074C6CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB32E561CE869370074C6CF /* ViewController.swift */; };
 		0DB32E5A1CE869370074C6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB32E581CE869370074C6CF /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DA58F891CE8FB9000968DAD /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = ../../../Desktop/launch.png; sourceTree = SOURCE_ROOT; };
+		0DA58F8B1CE95BE900968DAD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0DB32E511CE869370074C6CF /* Woke-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woke-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB32E541CE869370074C6CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DB32E561CE869370074C6CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 				0DB32E5B1CE869370074C6CF /* Assets.xcassets */,
 				0DB32E5D1CE869370074C6CF /* LaunchScreen.storyboard */,
 				0DB32E601CE869370074C6CF /* Info.plist */,
+				0DA58F891CE8FB9000968DAD /* launch.png */,
 			);
 			path = "Woke-iOS";
 			sourceTree = "<group>";
@@ -74,6 +78,7 @@
 		1FFBFA29B597E4E283196D87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DA58F8B1CE95BE900968DAD /* CoreLocation.framework */,
 				25FBE55F72085697CA324987 /* libPods-Woke-iOS.a */,
 			);
 			name = Frameworks;
@@ -149,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA58F8A1CE8FB9000968DAD /* launch.png in Resources */,
 				0DB32E5F1CE869370074C6CF /* LaunchScreen.storyboard in Resources */,
 				0DB32E5C1CE869370074C6CF /* Assets.xcassets in Resources */,
 				0DB32E5A1CE869370074C6CF /* Main.storyboard in Resources */,
