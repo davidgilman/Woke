@@ -2,12 +2,11 @@
 //  AppDelegate.swift
 //  Woke-iOS
 //
-//  Created by David Gilman on 5/15/16.
+//  Created by David Gilman on 5/18/16.
 //  Copyright © 2016 David Gilman. All rights reserved.
 //
 
 import UIKit
-import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        GMSServices.provideAPIKey("AIzaSyCt-Kbl_KtU1EL8irbWrySzd3wYfwcFbEE")
         // Override point for customization after application launch.
         return true
     }

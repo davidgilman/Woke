@@ -2,47 +2,63 @@
 //  ViewController.swift
 //  Woke-iOS
 //
-//  Created by David Gilman on 5/15/16.
+//  Created by David Gilman on 5/18/16.
 //  Copyright © 2016 David Gilman. All rights reserved.
 //
 
 import UIKit
-import GoogleMaps
+import MapKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
+    @IBOutlet weak var mapView: MKMapView!
+    
+    let locationManager = CLLocationManager()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        let camera = GMSCameraPosition.cameraWithLatitude(-33.86,
-                                                          longitude: 151.20, zoom: 6)
-        let mapView = GMSMapView.mapWithFrame(CGRectZero, camera: camera)
-        mapView.accessibilityElementsHidden = false
-        mapView.myLocationEnabled = true
-        self.view = mapView
+        self.locationManager.delegate = self
         
-        if let mylocation = mapView.myLocation {
-            print("User's location: \(mylocation)")
-        } else {
-            print("User's location is unknown")
-        }
-        let marker = GMSMarker()
-        marker.position = CLLocationCoordinate2DMake(-33.86, 151.20)
-        marker.title = "Sydney"
-        marker.snippet = "Australia"
-        marker.map = mapView
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         
-        ///////GET MAPS SDK DEMOS///////
+        self.locationManager.requestWhenInUseAuthorization()
+        
+        self.locationManager.startUpdatingLocation()
+        
+        self.mapView.showsUserLocation = true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    // Location Delegate Methods
+    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        let location = locations.last
+        
+        let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
+        
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
+        
+        self.mapView.setRegion(region, animated: true)
+        
+        self.locationManager.stopUpdatingLocation()
+        
+    }
+    
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        
+        print("Errors: " + error.localizedDescription)
+        
+    }
 
 }
-
-
 
