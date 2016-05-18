@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AYC-V5-HLU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AYC-V5-HLU">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Current Location-->
+        <!--Choose a location<changesafterchosen>-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Woke_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,9 @@
                             <constraint firstItem="FLz-9y-faG" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="pLG-0L-hD6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Current Location" id="sMu-Gl-2oE"/>
+                    <navigationItem key="navigationItem" title="Choose a location&lt;changesafterchosen&gt;" id="sMu-Gl-2oE">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="muj-W8-7tP"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="FLz-9y-faG" id="TLy-Wa-AoD"/>
                     </connections>

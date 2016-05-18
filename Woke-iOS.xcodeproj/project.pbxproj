@@ -14,6 +14,7 @@
 		0D9331C71CEC5F7000344B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9331C51CEC5F7000344B83 /* LaunchScreen.storyboard */; };
 		0D9331D21CEC5F7000344B83 /* Woke_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9331D11CEC5F7000344B83 /* Woke_iOSTests.swift */; };
 		0D9331DD1CEC5F7000344B83 /* Woke_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9331DC1CEC5F7000344B83 /* Woke_iOSUITests.swift */; };
+		0DC629AD1CECF69C00200A67 /* wokeboot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC629AC1CECF69C00200A67 /* wokeboot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0D9331D81CEC5F7000344B83 /* Woke-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woke-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9331DC1CEC5F7000344B83 /* Woke_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woke_iOSUITests.swift; sourceTree = "<group>"; };
 		0D9331DE1CEC5F7000344B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC629AC1CECF69C00200A67 /* wokeboot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wokeboot.png; path = ../wokeboot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0D9331C31CEC5F7000344B83 /* Assets.xcassets */,
 				0D9331C51CEC5F7000344B83 /* LaunchScreen.storyboard */,
 				0D9331C81CEC5F7000344B83 /* Info.plist */,
+				0DC629AC1CECF69C00200A67 /* wokeboot.png */,
 			);
 			path = "Woke-iOS";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9331C71CEC5F7000344B83 /* LaunchScreen.storyboard in Resources */,
+				0DC629AD1CECF69C00200A67 /* wokeboot.png in Resources */,
 				0D9331C41CEC5F7000344B83 /* Assets.xcassets in Resources */,
 				0D9331C21CEC5F7000344B83 /* Main.storyboard in Resources */,
 			);
@@ -484,6 +488,7 @@
 				0D9331E31CEC5F7000344B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D9331E41CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				0D9331E61CEC5F7000344B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D9331E71CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				0D9331E91CEC5F7000344B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

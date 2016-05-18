@@ -20,6 +20,11 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController!.navigationBar.barTintColor = UIColor(red: 46/255.0, green: 204/255.0, blue: 113/255.0, alpha: 1.0)
+        
+        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        
+        
         self.locationManager.delegate = self
         
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
