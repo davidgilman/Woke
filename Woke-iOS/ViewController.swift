@@ -11,6 +11,25 @@ import MapKit
 import CoreLocation
 
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+    
+    var searchController:UISearchController!
+    
+    var annotation:MKAnnotation!
+    
+    var localSearchRequest:MKLocalSearchRequest!
+    
+    var localSearch:MKLocalSearch!
+    
+    var localSearchResponse:MKLocalSearchResponse!
+    
+    var error:NSError!
+    
+    var pointAnnotation:MKPointAnnotation!
+    
+    var pinAnnotationView:MKPinAnnotationView!
+    
+    @IBAction func showSearchBar(sender: AnyObject) {
+    }
 
     @IBOutlet weak var mapView: MKMapView!
     

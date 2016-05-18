@@ -30,7 +30,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Choose a location&lt;changesafterchosen&gt;" id="sMu-Gl-2oE">
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="muj-W8-7tP"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="muj-W8-7tP">
+                            <connections>
+                                <action selector="showSearchBar:" destination="BYZ-38-t0r" id="3aB-KI-OUW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="FLz-9y-faG" id="TLy-Wa-AoD"/>
