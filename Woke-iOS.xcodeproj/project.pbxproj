@@ -7,66 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D9331BD1CEC5F7000344B83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9331BC1CEC5F7000344B83 /* AppDelegate.swift */; };
-		0D9331BF1CEC5F7000344B83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9331BE1CEC5F7000344B83 /* ViewController.swift */; };
-		0D9331C21CEC5F7000344B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9331C01CEC5F7000344B83 /* Main.storyboard */; };
-		0D9331C41CEC5F7000344B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9331C31CEC5F7000344B83 /* Assets.xcassets */; };
-		0D9331C71CEC5F7000344B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9331C51CEC5F7000344B83 /* LaunchScreen.storyboard */; };
-		0D9331D21CEC5F7000344B83 /* Woke_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9331D11CEC5F7000344B83 /* Woke_iOSTests.swift */; };
-		0D9331DD1CEC5F7000344B83 /* Woke_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9331DC1CEC5F7000344B83 /* Woke_iOSUITests.swift */; };
-		0DC629AD1CECF69C00200A67 /* wokeboot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC629AC1CECF69C00200A67 /* wokeboot.png */; };
+		0DC629F71CEEE93200200A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC629F61CEEE93200200A67 /* AppDelegate.swift */; };
+		0DC629F91CEEE93200200A67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC629F81CEEE93200200A67 /* ViewController.swift */; };
+		0DC629FC1CEEE93200200A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC629FA1CEEE93200200A67 /* Main.storyboard */; };
+		0DC629FE1CEEE93200200A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC629FD1CEEE93200200A67 /* Assets.xcassets */; };
+		0DC62A011CEEE93200200A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC629FF1CEEE93200200A67 /* LaunchScreen.storyboard */; };
+		0DC62A091CEF663300200A67 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC62A081CEF663300200A67 /* LocationSearchTable.swift */; };
+		0DC62A0B1CEF80AF00200A67 /* wokeboot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC62A0A1CEF80AF00200A67 /* wokeboot.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0D9331CE1CEC5F7000344B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D9331B11CEC5F7000344B83 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D9331B81CEC5F7000344B83;
-			remoteInfo = "Woke-iOS";
-		};
-		0D9331D91CEC5F7000344B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D9331B11CEC5F7000344B83 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D9331B81CEC5F7000344B83;
-			remoteInfo = "Woke-iOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0D9331B91CEC5F7000344B83 /* Woke-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woke-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D9331BC1CEC5F7000344B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D9331BE1CEC5F7000344B83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D9331C11CEC5F7000344B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D9331C31CEC5F7000344B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0D9331C61CEC5F7000344B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0D9331C81CEC5F7000344B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D9331CD1CEC5F7000344B83 /* Woke-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woke-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D9331D11CEC5F7000344B83 /* Woke_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woke_iOSTests.swift; sourceTree = "<group>"; };
-		0D9331D31CEC5F7000344B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D9331D81CEC5F7000344B83 /* Woke-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Woke-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D9331DC1CEC5F7000344B83 /* Woke_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Woke_iOSUITests.swift; sourceTree = "<group>"; };
-		0D9331DE1CEC5F7000344B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DC629AC1CECF69C00200A67 /* wokeboot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wokeboot.png; path = ../wokeboot.png; sourceTree = "<group>"; };
+		0DC629F31CEEE93200200A67 /* Woke-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woke-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC629F61CEEE93200200A67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DC629F81CEEE93200200A67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DC629FB1CEEE93200200A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DC629FD1CEEE93200200A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC62A001CEEE93200200A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DC62A021CEEE93200200A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC62A081CEF663300200A67 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		0DC62A0A1CEF80AF00200A67 /* wokeboot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wokeboot.png; path = ../wokeboot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D9331B61CEC5F7000344B83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D9331CA1CEC5F7000344B83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D9331D51CEC5F7000344B83 /* Frameworks */ = {
+		0DC629F01CEEE93200200A67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +39,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D9331B01CEC5F7000344B83 = {
+		0DC629EA1CEEE93200200A67 = {
 			isa = PBXGroup;
 			children = (
-				0D9331BB1CEC5F7000344B83 /* Woke-iOS */,
-				0D9331D01CEC5F7000344B83 /* Woke-iOSTests */,
-				0D9331DB1CEC5F7000344B83 /* Woke-iOSUITests */,
-				0D9331BA1CEC5F7000344B83 /* Products */,
+				0DC629F51CEEE93200200A67 /* Woke-iOS */,
+				0DC629F41CEEE93200200A67 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0D9331BA1CEC5F7000344B83 /* Products */ = {
+		0DC629F41CEEE93200200A67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D9331B91CEC5F7000344B83 /* Woke-iOS.app */,
-				0D9331CD1CEC5F7000344B83 /* Woke-iOSTests.xctest */,
-				0D9331D81CEC5F7000344B83 /* Woke-iOSUITests.xctest */,
+				0DC629F31CEEE93200200A67 /* Woke-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D9331BB1CEC5F7000344B83 /* Woke-iOS */ = {
+		0DC629F51CEEE93200200A67 /* Woke-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0D9331BC1CEC5F7000344B83 /* AppDelegate.swift */,
-				0D9331BE1CEC5F7000344B83 /* ViewController.swift */,
-				0D9331C01CEC5F7000344B83 /* Main.storyboard */,
-				0D9331C31CEC5F7000344B83 /* Assets.xcassets */,
-				0D9331C51CEC5F7000344B83 /* LaunchScreen.storyboard */,
-				0D9331C81CEC5F7000344B83 /* Info.plist */,
-				0DC629AC1CECF69C00200A67 /* wokeboot.png */,
+				0DC629F61CEEE93200200A67 /* AppDelegate.swift */,
+				0DC629F81CEEE93200200A67 /* ViewController.swift */,
+				0DC62A081CEF663300200A67 /* LocationSearchTable.swift */,
+				0DC629FA1CEEE93200200A67 /* Main.storyboard */,
+				0DC629FD1CEEE93200200A67 /* Assets.xcassets */,
+				0DC629FF1CEEE93200200A67 /* LaunchScreen.storyboard */,
+				0DC62A021CEEE93200200A67 /* Info.plist */,
+				0DC62A0A1CEF80AF00200A67 /* wokeboot.png */,
 			);
 			path = "Woke-iOS";
-			sourceTree = "<group>";
-		};
-		0D9331D01CEC5F7000344B83 /* Woke-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				0D9331D11CEC5F7000344B83 /* Woke_iOSTests.swift */,
-				0D9331D31CEC5F7000344B83 /* Info.plist */,
-			);
-			path = "Woke-iOSTests";
-			sourceTree = "<group>";
-		};
-		0D9331DB1CEC5F7000344B83 /* Woke-iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0D9331DC1CEC5F7000344B83 /* Woke_iOSUITests.swift */,
-				0D9331DE1CEC5F7000344B83 /* Info.plist */,
-			);
-			path = "Woke-iOSUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D9331B81CEC5F7000344B83 /* Woke-iOS */ = {
+		0DC629F21CEEE93200200A67 /* Woke-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D9331E11CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOS" */;
+			buildConfigurationList = 0DC62A051CEEE93200200A67 /* Build configuration list for PBXNativeTarget "Woke-iOS" */;
 			buildPhases = (
-				0D9331B51CEC5F7000344B83 /* Sources */,
-				0D9331B61CEC5F7000344B83 /* Frameworks */,
-				0D9331B71CEC5F7000344B83 /* Resources */,
+				0DC629EF1CEEE93200200A67 /* Sources */,
+				0DC629F01CEEE93200200A67 /* Frameworks */,
+				0DC629F11CEEE93200200A67 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +87,25 @@
 			);
 			name = "Woke-iOS";
 			productName = "Woke-iOS";
-			productReference = 0D9331B91CEC5F7000344B83 /* Woke-iOS.app */;
+			productReference = 0DC629F31CEEE93200200A67 /* Woke-iOS.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0D9331CC1CEC5F7000344B83 /* Woke-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D9331E41CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOSTests" */;
-			buildPhases = (
-				0D9331C91CEC5F7000344B83 /* Sources */,
-				0D9331CA1CEC5F7000344B83 /* Frameworks */,
-				0D9331CB1CEC5F7000344B83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D9331CF1CEC5F7000344B83 /* PBXTargetDependency */,
-			);
-			name = "Woke-iOSTests";
-			productName = "Woke-iOSTests";
-			productReference = 0D9331CD1CEC5F7000344B83 /* Woke-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0D9331D71CEC5F7000344B83 /* Woke-iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D9331E71CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOSUITests" */;
-			buildPhases = (
-				0D9331D41CEC5F7000344B83 /* Sources */,
-				0D9331D51CEC5F7000344B83 /* Frameworks */,
-				0D9331D61CEC5F7000344B83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D9331DA1CEC5F7000344B83 /* PBXTargetDependency */,
-			);
-			name = "Woke-iOSUITests";
-			productName = "Woke-iOSUITests";
-			productReference = 0D9331D81CEC5F7000344B83 /* Woke-iOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0D9331B11CEC5F7000344B83 /* Project object */ = {
+		0DC629EB1CEEE93200200A67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "David Gilman";
 				TargetAttributes = {
-					0D9331B81CEC5F7000344B83 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					0D9331CC1CEC5F7000344B83 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 0D9331B81CEC5F7000344B83;
-					};
-					0D9331D71CEC5F7000344B83 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 0D9331B81CEC5F7000344B83;
+					0DC629F21CEEE93200200A67 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 0D9331B41CEC5F7000344B83 /* Build configuration list for PBXProject "Woke-iOS" */;
+			buildConfigurationList = 0DC629EE1CEEE93200200A67 /* Build configuration list for PBXProject "Woke-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,100 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 0D9331B01CEC5F7000344B83;
-			productRefGroup = 0D9331BA1CEC5F7000344B83 /* Products */;
+			mainGroup = 0DC629EA1CEEE93200200A67;
+			productRefGroup = 0DC629F41CEEE93200200A67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D9331B81CEC5F7000344B83 /* Woke-iOS */,
-				0D9331CC1CEC5F7000344B83 /* Woke-iOSTests */,
-				0D9331D71CEC5F7000344B83 /* Woke-iOSUITests */,
+				0DC629F21CEEE93200200A67 /* Woke-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D9331B71CEC5F7000344B83 /* Resources */ = {
+		0DC629F11CEEE93200200A67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9331C71CEC5F7000344B83 /* LaunchScreen.storyboard in Resources */,
-				0DC629AD1CECF69C00200A67 /* wokeboot.png in Resources */,
-				0D9331C41CEC5F7000344B83 /* Assets.xcassets in Resources */,
-				0D9331C21CEC5F7000344B83 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D9331CB1CEC5F7000344B83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D9331D61CEC5F7000344B83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0DC62A011CEEE93200200A67 /* LaunchScreen.storyboard in Resources */,
+				0DC62A0B1CEF80AF00200A67 /* wokeboot.png in Resources */,
+				0DC629FE1CEEE93200200A67 /* Assets.xcassets in Resources */,
+				0DC629FC1CEEE93200200A67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D9331B51CEC5F7000344B83 /* Sources */ = {
+		0DC629EF1CEEE93200200A67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9331BF1CEC5F7000344B83 /* ViewController.swift in Sources */,
-				0D9331BD1CEC5F7000344B83 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D9331C91CEC5F7000344B83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D9331D21CEC5F7000344B83 /* Woke_iOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D9331D41CEC5F7000344B83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D9331DD1CEC5F7000344B83 /* Woke_iOSUITests.swift in Sources */,
+				0DC62A091CEF663300200A67 /* LocationSearchTable.swift in Sources */,
+				0DC629F91CEEE93200200A67 /* ViewController.swift in Sources */,
+				0DC629F71CEEE93200200A67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0D9331CF1CEC5F7000344B83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D9331B81CEC5F7000344B83 /* Woke-iOS */;
-			targetProxy = 0D9331CE1CEC5F7000344B83 /* PBXContainerItemProxy */;
-		};
-		0D9331DA1CEC5F7000344B83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D9331B81CEC5F7000344B83 /* Woke-iOS */;
-			targetProxy = 0D9331D91CEC5F7000344B83 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		0D9331C01CEC5F7000344B83 /* Main.storyboard */ = {
+		0DC629FA1CEEE93200200A67 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0D9331C11CEC5F7000344B83 /* Base */,
+				0DC629FB1CEEE93200200A67 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0D9331C51CEC5F7000344B83 /* LaunchScreen.storyboard */ = {
+		0DC629FF1CEEE93200200A67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0D9331C61CEC5F7000344B83 /* Base */,
+				0DC62A001CEEE93200200A67 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0D9331DF1CEC5F7000344B83 /* Debug */ = {
+		0DC62A031CEEE93200200A67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		0D9331E01CEC5F7000344B83 /* Release */ = {
+		0DC62A041CEEE93200200A67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,7 +255,7 @@
 			};
 			name = Release;
 		};
-		0D9331E21CEC5F7000344B83 /* Debug */ = {
+		0DC62A061CEEE93200200A67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -412,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		0D9331E31CEC5F7000344B83 /* Release */ = {
+		0DC62A071CEEE93200200A67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -420,95 +274,31 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.davidgilman.Woke-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		0D9331E51CEC5F7000344B83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Woke-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "co.davidgilman.Woke-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woke-iOS.app/Woke-iOS";
-			};
-			name = Debug;
-		};
-		0D9331E61CEC5F7000344B83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Woke-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "co.davidgilman.Woke-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woke-iOS.app/Woke-iOS";
-			};
-			name = Release;
-		};
-		0D9331E81CEC5F7000344B83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Woke-iOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "co.davidgilman.Woke-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Woke-iOS";
-			};
-			name = Debug;
-		};
-		0D9331E91CEC5F7000344B83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Woke-iOSUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "co.davidgilman.Woke-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Woke-iOS";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D9331B41CEC5F7000344B83 /* Build configuration list for PBXProject "Woke-iOS" */ = {
+		0DC629EE1CEEE93200200A67 /* Build configuration list for PBXProject "Woke-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D9331DF1CEC5F7000344B83 /* Debug */,
-				0D9331E01CEC5F7000344B83 /* Release */,
+				0DC62A031CEEE93200200A67 /* Debug */,
+				0DC62A041CEEE93200200A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D9331E11CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOS" */ = {
+		0DC62A051CEEE93200200A67 /* Build configuration list for PBXNativeTarget "Woke-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D9331E21CEC5F7000344B83 /* Debug */,
-				0D9331E31CEC5F7000344B83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D9331E41CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D9331E51CEC5F7000344B83 /* Debug */,
-				0D9331E61CEC5F7000344B83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D9331E71CEC5F7000344B83 /* Build configuration list for PBXNativeTarget "Woke-iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D9331E81CEC5F7000344B83 /* Debug */,
-				0D9331E91CEC5F7000344B83 /* Release */,
+				0DC62A061CEEE93200200A67 /* Debug */,
+				0DC62A071CEEE93200200A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0D9331B11CEC5F7000344B83 /* Project object */;
+	rootObject = 0DC629EB1CEEE93200200A67 /* Project object */;
 }
