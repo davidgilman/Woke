@@ -35,7 +35,6 @@ class ViewController : UIViewController {
         resultSearchController?.searchResultsUpdater = locationSearchTable
         let searchBar = resultSearchController!.searchBar
         searchBar.tintColor = UIColor.whiteColor()
-        searchBar.backgroundColor = UIColor(red: 46/255.0, green: 204/255.0, blue: 113/255.0, alpha: 1.0)
         searchBar.sizeToFit()
         searchBar.placeholder = "Search to place your Woke"
         navigationItem.titleView = resultSearchController?.searchBar
@@ -44,6 +43,7 @@ class ViewController : UIViewController {
         definesPresentationContext = true
         locationSearchTable.mapView = mapView
         locationSearchTable.handleMapSearchDelegate = self
+        mapView.tintColor = UIColor(red: 46/255.0, green: 204/255.0, blue: 113/255.0, alpha: 1.0)
         
     }
     
