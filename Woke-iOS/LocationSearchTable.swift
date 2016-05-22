@@ -5,8 +5,7 @@
 //  Created by David Gilman on 5/20/16.
 //  Copyright © 2016 David Gilman. All rights reserved.
 //
-// Base code credits : http://www.thorntech.com/2016/01/how-to-search-for-location-using-apples-mapkit/
-//
+
 import UIKit
 import MapKit
 

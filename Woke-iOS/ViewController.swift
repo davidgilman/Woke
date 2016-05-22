@@ -5,8 +5,6 @@
 //  Created by David Gilman on 5/19/16.
 //  Copyright © 2016 David Gilman. All rights reserved.
 //
-// Base code credits : http://www.thorntech.com/2016/01/how-to-search-for-location-using-apples-mapkit/
-//
 
 import UIKit
 import MapKit
@@ -43,7 +41,8 @@ class ViewController : UIViewController {
         definesPresentationContext = true
         locationSearchTable.mapView = mapView
         locationSearchTable.handleMapSearchDelegate = self
-        mapView.tintColor = UIColor(red: 46/255.0, green: 204/255.0, blue: 113/255.0, alpha: 1.0)
+        mapView.tintColor = UIColor(red: 52/255.0, green: 73/255.0, blue: 94/255.0, alpha: 1.0)
+        navigationController!.navigationBar.barTintColor = UIColor(red: 52/255.0, green: 73/255.0, blue: 94/255.0, alpha: 1.0)
         
     }
     
@@ -99,8 +98,12 @@ extension ViewController : MKMapViewDelegate {
         let reuseId = "pin"
         var pinView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId) as? MKPinAnnotationView
         pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
-        pinView?.pinTintColor = UIColor(red: 46/255.0, green: 204/255.0, blue: 113/255.0, alpha: 1.0)
+        pinView?.pinTintColor = UIColor(red: 52/255.0, green: 73/255.0, blue: 94/255.0, alpha: 1.0)
         pinView?.canShowCallout = true
+        let removeButton = UIButton(type: .Custom)
+        removeButton.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
+        removeButton.setImage(UIImage(named: "RadiusSettings")!, forState: .Normal)
+        pinView?.leftCalloutAccessoryView = removeButton
         return pinView
     }
 }

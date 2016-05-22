@@ -22,7 +22,7 @@
                                 <rect key="frame" x="68" y="103" width="464" height="394"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="gHJ-Ul-Kyj" secondAttribute="trailing" constant="48" id="3RB-F8-Ksi"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gHJ-Ul-Kyj" secondAttribute="bottom" constant="103" id="AfG-Yo-48J"/>
