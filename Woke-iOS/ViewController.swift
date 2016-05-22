@@ -43,6 +43,7 @@ class ViewController : UIViewController {
         locationSearchTable.handleMapSearchDelegate = self
         mapView.tintColor = UIColor(red: 52/255.0, green: 73/255.0, blue: 94/255.0, alpha: 1.0)
         navigationController!.navigationBar.barTintColor = UIColor(red: 52/255.0, green: 73/255.0, blue: 94/255.0, alpha: 1.0)
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
         
     }
     
